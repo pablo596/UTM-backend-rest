@@ -84,27 +84,27 @@ npm run dev
 
 ## Demostración del back en funcionameinto con la herramienta **_Postman_**
 
-### Método de recuperación total
+### Método de recuperación total - **_GET_**
 
 `http://localhost:4000/games/`
 ![Postman, método GET - getGames](./img/getGames.png)
 
-### Método de recuperación por el **_id_**
+### Método de recuperación por el **_id_** - **_GET_**
 
 `http://localhost:4000/games/1`
 ![Postman, método GET - getGameById](./img/getGamesById.png)
 
-### Método de creación
+### Método de creación - **_POST_**
 
 `http://localhost:4000/games/`
 ![Postman, método POST - createGame](./img/createGame.png)
 
-### Método de actualización
+### Método de actualización - **_PUT_**
 
 `http://localhost:4000/games/5`
 ![Postman, método PUT - updateGame](./img/updateGame.png)
 
-### Método de eliminación
+### Método de eliminación - **_DELETE_**
 
 `http://localhost:4000/games/5`
 ![Postman, método DELETE - deleteGame](./img/deleteGame.png)
